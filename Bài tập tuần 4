@@ -1,0 +1,6 @@
+#Nhập vào 1 số nguyên dương n, tính tổng các số từ 0 đến n
+n = int(input("Nhập vào số nguyên dương n: "))
+Sum=0
+for i in range(n+1):
+    Sum+=i
+print("Tổng các số từ 0 đến",n,"là:",Sum)
